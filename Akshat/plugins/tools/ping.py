@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from Akshat import app
-from Akshat.core.call import rax
+from Akshat.core.call import Rax
 from Akshat.utils import bot_sys_stats
 from Akshat.utils.decorators.language import language
 from Akshat.utils.inline import supp_markup
