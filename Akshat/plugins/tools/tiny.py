@@ -10,7 +10,7 @@ async def tiny_sticker(client, message):
     if not (reply and reply.sticker):
         await message.reply("Please reply to a sticker")
         return
-    kontol = await message.reply("Processing tiny...")
+    kontol = await message.reply("🐾")
     ik = await app.download_media(reply)
     im1 = Image.open("Akshat/assets/mohit.png")
     if ik.endswith(".tgs"):
