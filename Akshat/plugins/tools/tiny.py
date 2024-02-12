@@ -4,7 +4,7 @@ from PIL import Image
 from pyrogram import Client, filters
 from Akshat import app
 
-@app.on_message(filters.command("mohitt"))
+@app.on_message(filters.command("tiny"))
 async def tiny_sticker(client, message):
     reply = message.reply_to_message
     if not (reply and reply.sticker):
