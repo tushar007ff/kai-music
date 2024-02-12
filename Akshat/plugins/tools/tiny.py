@@ -4,13 +4,14 @@ from PIL import Image
 from pyrogram import Client, filters
 from Akshat import app
 
-@app.on_message(filters.command("tiny"))
+@app.on_message(filters.command("mohitt"))
 async def tiny_sticker(client, message):
     reply = message.reply_to_message
     if not (reply and reply.sticker):
         await message.reply("Please reply to a sticker")
         return
-    kontol = await message.reply("🐾")
+    kontol = await message.reply("Processing please wait")
+    await kontol.edit_text("🐾")
     ik = await app.download_media(reply)
     im1 = Image.open("Akshat/assets/mohit.png")
     if ik.endswith(".tgs"):
