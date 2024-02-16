@@ -143,7 +143,7 @@ SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
 PING_VID_URL = getenv(
-    "PING_VID_URL", "https://telegra.ph/file/925d833773c3f75500255.mp4""
+    "PING_VID_URL", "https://telegra.ph/file/925d833773c3f75500255.mp4"
 
 def time_to_seconds(time):
     stringt = str(time)
