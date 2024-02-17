@@ -3,7 +3,7 @@ from Akshat import app
 from config import OWNER_ID, BOT_USERNAME
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-@app.on_message(filters.command(["post","channel pe daal do"], prefixes=["/", ".","baby"]) & filters.user(OWNER_ID))
+@app.on_message(filters.command(["post","anu daal do"], prefixes=["/", ".","j"]) & filters.user(OWNER_ID))
 async def copy_messages(_, message):
 
     if message.reply_to_message:
