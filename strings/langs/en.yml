@@ -191,9 +191,10 @@ playlist_7 : "Tracks Inside Playlist: {0}\n\nPress the Buttons to delete a parti
 playlist_8 : "Already Exists\n\nThis track exists in your playlist."
 playlist_9 : "Sorry! You can only have {0} music in a playlist."
 playlist_10 : "Playlist Addition\n\n{0}\nadded to your playlist."
-playlist_11 : "Successfully deleted your track."
+playlist_11 : "Successfully deleted song from  your  playlist track."
 playlist_12 : "Failed to delete your track."
 playlist_13 : "Deleted your whole playlists from the server. "
+
 playlist_14 : "**Are you Sure you want to delete your whole playlist?**\n\nYou'll lost your playlist and this can't be recovered later."
 playlist_15 : "[Checkout Whole Playlist]({0})"
 playlist_16 : "Queued Playlist:"
