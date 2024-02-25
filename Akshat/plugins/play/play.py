@@ -8,6 +8,8 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from Akshat import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
 from Akshat.core.call import Rax
+from config import Akshay
+
 from Akshat.utils import seconds_to_min, time_to_seconds
 from Akshat.utils.channelplay import get_channeplayCB
 from Akshat.utils.decorators.language import languageCB
@@ -55,7 +57,7 @@ async def play_commnd(
 ):
     await add_served_chat(message.chat.id)
     mystic = await message.reply_text(
-        _["play_2"].format(channel) if channel else _["play_1"]
+        _["play_2"].format(channel) if channel else random.choice(Akshay)
     )
     plist_id = None
     slider = None
