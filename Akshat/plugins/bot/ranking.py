@@ -2,22 +2,14 @@ from pyrogram import filters
 from pymongo import MongoClient
 from Akshat import app
 from config import MONGO_DB_URI
-from pyrogram.errors import MessageNotModified
-from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
-from typing import Union
-
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
-from pyrogram import Client
-import requests
-import os
-import time
 
 mongo_client = MongoClient(MONGO_DB_URI)
 db = mongo_client["natu_rankings"]
 collection = db["ranking"]
 
 user_data = {}
-
 today = {}
 
 ARU = [
@@ -31,7 +23,8 @@ ARU = [
     "https://telegra.ph/file/0cd3fdfb1c37e35860167.jpg",
     "https://graph.org/file/a45b214adabcd86401152.jpg",
 ]
-# watcher
+
+
 @app.on_message(filters.group & filters.group, group=6)
 def today_watcher(_, message):
     chat_id = message.chat.id
@@ -41,10 +34,7 @@ def today_watcher(_, message):
     else:
         if chat_id not in today:
             today[chat_id] = {}
-        if user_id not in today[chat_id]:
-            today[chat_id][user_id] = {"total_messages": 1}
-        else:
-            today[chat_id][user_id]["total_messages"] = 1
+        today[chat_id].setdefault(user_id, {"total_messages": 1})
 
 @app.on_message(filters.group & filters.group, group=11)
 def _watcher(_, message):
@@ -54,7 +44,7 @@ def _watcher(_, message):
         user_data[user_id]["total_messages"] += 1    
         collection.update_one({"_id": user_id}, {"$inc": {"total_messages": 1}}, upsert=True)
 
-# ------------------- ranks ------------------ #
+
 @app.on_message(filters.command("today"))
 async def today_(_, message):
     chat_id = message.chat.id
@@ -63,7 +53,7 @@ async def today_(_, message):
         sorted_users_data = sorted(users_data, key=lambda x: x[1], reverse=True)[:10]
 
         if sorted_users_data:
-            response = "✦ 📈 ᴛᴏᴅᴀʏ ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ**\n\n"
+            response = "✦ 📈 ᴛᴏᴅᴀʏ's ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ**\n\n"
             for idx, (user_id, total_messages) in enumerate(sorted_users_data, start=1):
                 try:
                     user_name = (await app.get_users(user_id)).first_name
@@ -81,6 +71,7 @@ async def today_(_, message):
     else:
         await message.reply_text("❅ ɴᴏ ᴅᴀᴛᴀ ᴀᴠᴀɪʟᴀʙʟᴇ ғᴏʀ ᴛᴏᴅᴀʏ.")
 
+
 @app.on_message(filters.command("ranking"))
 async def ranking(_, message):
     top_members = collection.find().sort("total_messages", -1).limit(10)
@@ -94,7 +85,8 @@ async def ranking(_, message):
         except:
             user_name = "Unknown"
 
-        user_info = f"{idx}**.   {user_name} ➠ {total_messages}\n"
+        user_info = f"{idx}.   {user_name} ➠ {total_messages}\n"
         response += user_info
 
-    await message.reply_text(response)
+    random_image = random.choice(ARU)  
+    await message.reply_photo(photo=random_image, caption=response)  
