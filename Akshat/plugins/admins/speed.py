@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.core.call import Kai
-from Akshat.misc import SUDOERS, db
-from Akshat.utils import AdminRightsCheck
-from Akshat.utils.database import is_active_chat, is_nonadmin_chat
-from Akshat.utils.decorators.language import languageCB
-from Akshat.utils.inline import close_markup, speed_markup
+from KaiMusic import app
+from KaiMusic.core.call import Kai
+from KaiMusic.misc import SUDOERS, db
+from KaiMusic.utils import AdminRightsCheck
+from KaiMusic.utils.database import is_active_chat, is_nonadmin_chat
+from KaiMusic.utils.decorators.language import languageCB
+from KaiMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

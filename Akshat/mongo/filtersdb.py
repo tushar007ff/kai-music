@@ -1,4 +1,4 @@
-from Akshat.utils.mongo import db
+from KaiMusic.utils.mongo import db
 
 filters = db.filters["filters"] 
 

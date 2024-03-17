@@ -8,8 +8,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from Akshat.utils.database import is_on_off
-from Akshat.utils.formatters import time_to_seconds
+from KaiMusic.utils.database import is_on_off
+from KaiMusic.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):

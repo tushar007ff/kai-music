@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from Akshat import app
-from Akshat.core.call import Kai
-from Akshat.misc import db
-from Akshat.utils.database import get_assistant, get_authuser_names, get_cmode
-from Akshat.utils.decorators import ActualAdminCB, AdminActual, language
-from Akshat.utils.formatters import alpha_to_int, get_readable_time
+from KaiMusic import app
+from KaiMusic.core.call import Kai
+from KaiMusic.misc import db
+from KaiMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from KaiMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from KaiMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")

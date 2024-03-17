@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from Akshat.misc import db
-from Akshat.utils.formatters import check_duration, seconds_to_min
+from KaiMusic.misc import db
+from KaiMusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 

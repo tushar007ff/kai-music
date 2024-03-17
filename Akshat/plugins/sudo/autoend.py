@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.misc import SUDOERS
-from Akshat.utils.database import autoend_off, autoend_on
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)

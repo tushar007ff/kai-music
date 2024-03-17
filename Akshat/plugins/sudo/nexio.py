@@ -1,10 +1,10 @@
 import requests
 import random
-from Akshat import app, userbot
-from Akshat.misc import SUDOERS
+from KaiMusic import app, userbot
+from KaiMusic.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from Akshat.utils.Kai_ban import admin_filter
+from KaiMusic.utils.Kai_ban import admin_filter
 
 
 

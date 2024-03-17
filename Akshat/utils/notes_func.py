@@ -3,10 +3,10 @@ from pyrogram.types import Message
 import html
 import re
 from pyrogram.types import InlineKeyboardMarkup
-from Akshat import app
-from Akshat.mongo.notesdb import GetNote
+from KaiMusic import app
+from KaiMusic.mongo.notesdb import GetNote
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from Akshat.utils.msg_types import button_markdown_parser
+from KaiMusic.utils.msg_types import button_markdown_parser
 
 class NoteTypeMap(Enum):
     text = auto()

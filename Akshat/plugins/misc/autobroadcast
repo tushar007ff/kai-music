@@ -1,9 +1,9 @@
 import asyncio
 import datetime
-from Akshat import app
+from KaiMusic import app
 from pyrogram import Client
 from config import START_IMG_URL
-from Akshat.utils.database import get_served_chats
+from KaiMusic.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 

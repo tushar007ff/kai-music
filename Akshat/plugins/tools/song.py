@@ -8,7 +8,7 @@ import yt_dlp
 from urllib.parse import urlparse
 from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
-from Akshat import app, YouTube
+from KaiMusic import app, YouTube
 from pyrogram import filters
 from pyrogram import Client, filters
 from pyrogram.types import Message
@@ -23,9 +23,9 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
-from Akshat.utils.decorators.language import language, languageCB
-from Akshat.utils.formatters import convert_bytes
-from Akshat.utils.inline.song import song_markup
+from KaiMusic.utils.decorators.language import language, languageCB
+from KaiMusic.utils.formatters import convert_bytes
+from KaiMusic.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = ["song"]

@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from Akshat import app
-from Akshat.misc import db
-from Akshat.utils import KaiBin, get_channeplayCB, seconds_to_min
-from Akshat.utils.database import get_cmode, is_active_chat, is_music_playing
-from Akshat.utils.decorators.language import language, languageCB
-from Akshat.utils.inline import queue_back_markup, queue_markup
+from KaiMusic import app
+from KaiMusic.misc import db
+from KaiMusic.utils import KaiBin, get_channeplayCB, seconds_to_min
+from KaiMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from KaiMusic.utils.decorators.language import language, languageCB
+from KaiMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

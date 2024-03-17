@@ -1,7 +1,7 @@
 import os
 import requests
 from random import randint
-from Akshat.utils.database import (
+from KaiMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -14,24 +14,24 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton, CallbackQuery,
                             InlineKeyboardMarkup, Message)
-from Akshat.utils import close_markup
+from KaiMusic.utils import close_markup
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from Akshat import Carbon, YouTube, app
-from Akshat.utils.decorators.language import language, languageCB
-from Akshat.utils.inline.playlist import (botplaylist_markup,
+from KaiMusic import Carbon, YouTube, app
+from KaiMusic.utils.decorators.language import language, languageCB
+from KaiMusic.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from Akshat.utils.pastebin import KaiBin
+from KaiMusic.utils.pastebin import KaiBin
 import time
 import yt_dlp
 from youtube_search import YoutubeSearch
 from youtubesearchpython import VideosSearch
 from youtubesearchpython import SearchVideos
 
-from Akshat.utils.stream.stream import stream
+from KaiMusic.utils.stream.stream import stream
 from typing import Dict, List, Union
 
-from Akshat.core.mongo import mongodb
+from KaiMusic.core.mongo import mongodb
 
 playlistdb = mongodb.playlist
 playlist = []

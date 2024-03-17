@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.misc import SUDOERS
-from Akshat.utils import get_readable_time
-from Akshat.utils.database import (
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils import get_readable_time
+from KaiMusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from Akshat.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from Akshat.utils.decorators.language import language
-from Akshat.utils.extraction import extract_user
+from KaiMusic.utils.decorators.language import language
+from KaiMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

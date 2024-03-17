@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from gtts import gTTS
-from Akshat import app
+from KaiMusic import app
 
 
 @app.on_message(filters.command('tts'))

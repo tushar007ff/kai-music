@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from Akshat import app
-from Akshat.misc import HAPP, SUDOERS, XCB
-from Akshat.utils.database import (
+from KaiMusic import app
+from KaiMusic.misc import HAPP, SUDOERS, XCB
+from KaiMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from Akshat.utils.decorators.language import language
-from Akshat.utils.pastebin import KaiBin
+from KaiMusic.utils.decorators.language import language
+from KaiMusic.utils.pastebin import KaiBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

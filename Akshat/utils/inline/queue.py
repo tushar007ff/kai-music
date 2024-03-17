@@ -1,6 +1,6 @@
 from typing import Union
-from Akshat import app
-from Akshat.utils.formatters import time_to_seconds
+from KaiMusic import app
+from KaiMusic.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 

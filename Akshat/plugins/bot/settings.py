@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from Akshat import app
-from Akshat.utils.database import (
+from KaiMusic import app
+from KaiMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from Akshat.utils.database import (
     skip_off,
     skip_on,
 )
-from Akshat.utils.decorators.admins import ActualAdminCB
-from Akshat.utils.decorators.language import language, languageCB
-from Akshat.utils.inline.settings import (
+from KaiMusic.utils.decorators.admins import ActualAdminCB
+from KaiMusic.utils.decorators.language import language, languageCB
+from KaiMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from Akshat.utils.inline.start import private_panel
+from KaiMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 

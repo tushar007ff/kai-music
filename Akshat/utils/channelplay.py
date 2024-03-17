@@ -1,5 +1,5 @@
-from Akshat import app
-from Akshat.utils.database import get_cmode
+from KaiMusic import app
+from KaiMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

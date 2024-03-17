@@ -1,9 +1,9 @@
 from pyrogram import filters
 import random
-from Akshat import YouTube, app
-from Akshat.utils.channelplay import get_channeplayCB
-from Akshat.utils.decorators.language import languageCB
-from Akshat.utils.stream.stream import stream
+from KaiMusic import YouTube, app
+from KaiMusic.utils.channelplay import get_channeplayCB
+from KaiMusic.utils.decorators.language import languageCB
+from KaiMusic.utils.stream.stream import stream
 from config import BANNED_USERS, Akshay
 
 

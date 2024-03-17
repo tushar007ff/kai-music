@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from Akshat import app
-from Akshat.utils.formatters import (
+from KaiMusic import app
+from KaiMusic.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,

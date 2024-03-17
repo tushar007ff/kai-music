@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from Akshat import LOGGER, app, userbot
-from Akshat.core.call import Kai
-from Akshat.misc import sudo
-from Akshat.plugins import ALL_MODULES
-from Akshat.utils.database import get_banned_users, get_gbanned
+from KaiMusic import LOGGER, app, userbot
+from KaiMusic.core.call import Kai
+from KaiMusic.misc import sudo
+from KaiMusic.plugins import ALL_MODULES
+from KaiMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("Akshat.plugins" + all_module)
-    LOGGER("Akshat.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("KaiMusic.plugins" + all_module)
+    LOGGER("KaiMusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
     await Kai.start()
     try:
         await Kai.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("Akshat").error(
+        LOGGER("KaiMusic").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗗𝗔𝗫𝗫 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await Kai.decorators()
-    LOGGER("Akshat").info(
+    LOGGER("KaiMusic").info(
         "╔═════ஜ۩۞۩ஜ════╗\n                                               ☠︎︎TEAM_X_T☠︎︎\n                                                                     ╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Akshat").info("𝗦𝗧𝗢𝗣  𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("KaiMusic").info("𝗦𝗧𝗢𝗣  𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":

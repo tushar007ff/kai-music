@@ -1,11 +1,11 @@
-from Akshat import app
+from KaiMusic import app
 from pyrogram import Client, filters
 from pyrogram.errors import ChatIdInvalid
 from pyrogram.errors import ChatAdminRequired, ChatNotModified, ChatIdInvalid, FloodWait, InviteHashExpired, UserNotParticipant
 import os
 import json
 from pyrogram.types import Message
-from Akshat.misc import SUDOERS
+from KaiMusic.misc import SUDOERS
 
 
 

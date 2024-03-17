@@ -5,10 +5,10 @@ from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram.enums import ChatMemberStatus, ChatType
 
-from Akshat import app
+from KaiMusic import app
 
 from config import OWNER_ID, BOT_USERNAME
-from Akshat.misc import SUDOERS
+from KaiMusic.misc import SUDOERS
 
 COMMANDERS = [ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.OWNER]
 

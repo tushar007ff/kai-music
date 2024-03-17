@@ -1,10 +1,10 @@
 import random 
 from pyrogram import filters,Client,enums
-from Akshat import app
+from KaiMusic import app
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pyrogram.types import ChatPermissions
-from Akshat.mongo.nightmodedb import nightdb,nightmode_on,nightmode_off,get_nightchats 
+from KaiMusic.mongo.nightmodedb import nightdb,nightmode_on,nightmode_off,get_nightchats 
 
 
 

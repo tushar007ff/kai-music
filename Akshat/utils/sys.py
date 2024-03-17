@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from Akshat.misc import _boot_
-from Akshat.utils.formatters import get_readable_time
+from KaiMusic.misc import _boot_
+from KaiMusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():

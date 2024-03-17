@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.utils import extract_user, int_to_alpha
-from Akshat.utils.database import (
+from KaiMusic import app
+from KaiMusic.utils import extract_user, int_to_alpha
+from KaiMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from Akshat.utils.decorators import AdminActual, language
-from Akshat.utils.inline import close_markup
+from KaiMusic.utils.decorators import AdminActual, language
+from KaiMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.misc import SUDOERS
-from Akshat.utils.decorators.language import language
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.decorators.language import language
 
 
 def testspeed(m, _):

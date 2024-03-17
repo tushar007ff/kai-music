@@ -1,6 +1,6 @@
-from Akshat.utils.mongo import db
+from KaiMusic.utils.mongo import db
 
-#from Akshat.mongo import *# back...............
+#from KaiMusic.mongo import *# back...............
 
 notes = db.notes["notes"]
 

@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Akshat import app
-from Akshat.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from Akshat.utils.decorators import language
-from Akshat.utils.inline.settings import playmode_users_markup
+from KaiMusic import app
+from KaiMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from KaiMusic.utils.decorators import language
+from KaiMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 

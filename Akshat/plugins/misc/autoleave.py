@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from Akshat import app
-from Akshat.core.call import Kai, autoend
-from Akshat.utils.database import get_client, is_active_chat, is_autoend
+from KaiMusic import app
+from KaiMusic.core.call import Kai, autoend
+from KaiMusic.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
@@ -14,7 +14,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from Akshat.core.userbot import assistants
+            from KaiMusic.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

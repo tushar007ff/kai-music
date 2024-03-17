@@ -6,12 +6,12 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from Akshat import app
-from Akshat.misc import _boot_
-from Akshat.plugins.sudo.sudoers import sudoers_list
-from Akshat.utils.database import get_served_chats, get_served_users, get_sudoers
-from Akshat.utils import bot_sys_stats
-from Akshat.utils.database import (
+from KaiMusic import app
+from KaiMusic.misc import _boot_
+from KaiMusic.plugins.sudo.sudoers import sudoers_list
+from KaiMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from KaiMusic.utils import bot_sys_stats
+from KaiMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -19,9 +19,9 @@ from Akshat.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Akshat.utils.decorators.language import LanguageStart
-from Akshat.utils.formatters import get_readable_time
-from Akshat.utils.inline import help_pannel, private_panel, start_panel
+from KaiMusic.utils.decorators.language import LanguageStart
+from KaiMusic.utils.formatters import get_readable_time
+from KaiMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS, Kaiop
 from strings import get_string
 

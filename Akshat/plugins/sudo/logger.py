@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from Akshat import app
-from Akshat.misc import SUDOERS
-from Akshat.utils.database import add_off, add_on
-from Akshat.utils.decorators.language import language
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.database import add_off, add_on
+from KaiMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

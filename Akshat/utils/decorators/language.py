@@ -1,5 +1,5 @@
-from Akshat.misc import SUDOERS
-from Akshat.utils.database import get_lang, is_maintenance
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 

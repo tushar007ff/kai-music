@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import requests
-from Akshat import app
+from KaiMusic import app
 
 waifu_api_url = 'https://api.waifu.im/search'
 

@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from Akshat import app
-from Akshat.core.userbot import assistants
-from Akshat.misc import SUDOERS, mongodb
-from Akshat.plugins import ALL_MODULES
-from Akshat.utils.database import get_served_chats, get_served_users, get_sudoers
-from Akshat.utils.decorators.language import language, languageCB
-from Akshat.utils.inline.stats import back_stats_buttons, stats_buttons
+from KaiMusic import app
+from KaiMusic.core.userbot import assistants
+from KaiMusic.misc import SUDOERS, mongodb
+from KaiMusic.plugins import ALL_MODULES
+from KaiMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from KaiMusic.utils.decorators.language import language, languageCB
+from KaiMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 

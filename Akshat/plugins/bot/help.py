@@ -1,15 +1,15 @@
 from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message, InlineKeyboardButton
-from Akshat import app
-from Akshat.utils import help_pannel
-from Akshat.utils.database import get_lang
-from Akshat.utils.decorators.language import LanguageStart, languageCB
-from Akshat.utils.inline.help import help_back_markup, private_help_panel
+from KaiMusic import app
+from KaiMusic.utils import help_pannel
+from KaiMusic.utils.database import get_lang
+from KaiMusic.utils.decorators.language import LanguageStart, languageCB
+from KaiMusic.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
-from Akshat.utils.stuffs.buttons import BUTTONS
-from Akshat.utils.stuffs.helper import Helper
+from KaiMusic.utils.stuffs.buttons import BUTTONS
+from KaiMusic.utils.stuffs.helper import Helper
 
 @app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
 @app.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)

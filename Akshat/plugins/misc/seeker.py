@@ -1,7 +1,7 @@
 import asyncio
 
-from Akshat.misc import db
-from Akshat.utils.database import get_active_chats, is_music_playing
+from KaiMusic.misc import db
+from KaiMusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

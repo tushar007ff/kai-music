@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Akshat import app
-from Akshat.misc import SUDOERS, db
-from Akshat.utils.database import (
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS, db
+from KaiMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

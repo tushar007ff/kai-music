@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.misc import SUDOERS
-from Akshat.utils.database import (
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,

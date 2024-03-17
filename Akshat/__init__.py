@@ -1,8 +1,8 @@
-from Akshat.core.bot import Kai
-from Akshat.core.dir import dirr
-from Akshat.core.git import git
-from Akshat.core.userbot import Userbot
-from Akshat.misc import dbb, heroku
+from KaiMusic.core.bot import Kai
+from KaiMusic.core.dir import dirr
+from KaiMusic.core.git import git
+from KaiMusic.core.userbot import Userbot
+from KaiMusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER

@@ -11,7 +11,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 
 import datetime
-from Akshat import app
+from KaiMusic import app
 
 
 

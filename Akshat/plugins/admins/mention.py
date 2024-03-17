@@ -1,8 +1,8 @@
 import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
-from Akshat import app
+from KaiMusic import app
 from pyrogram import filters
-from Akshat.utils.Kai_ban import admin_filter
+from KaiMusic.utils.Kai_ban import admin_filter
 
 
 

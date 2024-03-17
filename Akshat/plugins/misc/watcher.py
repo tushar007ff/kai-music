@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.core.call import Kai
+from KaiMusic import app
+from KaiMusic.core.call import Kai
 
 welcome = 20
 close = 30

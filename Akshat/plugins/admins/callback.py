@@ -7,13 +7,13 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from Akshat.utils.database import get_assistant
+from KaiMusic.utils.database import get_assistant
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from Akshat import YouTube, app
-from Akshat.core.call import Kai
-from Akshat.misc import SUDOERS, db
-from Akshat.utils.database import (
+from KaiMusic import YouTube, app
+from KaiMusic.core.call import Kai
+from KaiMusic.misc import SUDOERS, db
+from KaiMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -27,12 +27,12 @@ from Akshat.utils.database import (
     is_muted,
     set_loop,
 )
-from Akshat.utils.decorators.language import languageCB
-from Akshat.utils.formatters import seconds_to_min
-from Akshat.utils.inline import close_markup, stream_markup, stream_markup_timer
-from Akshat.utils.inline.play import panel_markup_1, panel_markup_2, panel_markup_3
-from Akshat.utils.stream.autoclear import auto_clean
-from Akshat.utils.thumbnails import get_thumb
+from KaiMusic.utils.decorators.language import languageCB
+from KaiMusic.utils.formatters import seconds_to_min
+from KaiMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from KaiMusic.utils.inline.play import panel_markup_1, panel_markup_2, panel_markup_3
+from KaiMusic.utils.stream.autoclear import auto_clean
+from KaiMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS, SOUNCLOUD_IMG_URL, STREAM_IMG_URL, TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist, confirmer, votemode
 from strings import get_string
 from config import lyrical

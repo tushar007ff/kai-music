@@ -1,8 +1,8 @@
 from enum import Enum, auto
-from Akshat import app
+from KaiMusic import app
 from pyrogram.types import InlineKeyboardMarkup, Message
-from Akshat.utils.msg_types import button_markdown_parser
-from Akshat.utils.notes_func import NoteFillings
+from KaiMusic.utils.msg_types import button_markdown_parser
+from KaiMusic.utils.notes_func import NoteFillings
 from emojis import decode
 from pyrogram.types import Message
 

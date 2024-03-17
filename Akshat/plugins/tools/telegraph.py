@@ -1,6 +1,6 @@
 from telegraph import upload_file
 from pyrogram import filters
-from Akshat import app
+from KaiMusic import app
 from pyrogram.types import InputMediaPhoto
 
 

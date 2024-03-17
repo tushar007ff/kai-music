@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.utils.database import get_loop, set_loop
-from Akshat.utils.decorators import AdminRightsCheck
-from Akshat.utils.inline import close_markup
+from KaiMusic import app
+from KaiMusic.utils.database import get_loop, set_loop
+from KaiMusic.utils.decorators import AdminRightsCheck
+from KaiMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

@@ -6,23 +6,23 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from Akshat import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from Akshat.core.call import Kai
+from KaiMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from KaiMusic.core.call import Kai
 from config import Akshay
 
-from Akshat.utils import seconds_to_min, time_to_seconds
-from Akshat.utils.channelplay import get_channeplayCB
-from Akshat.utils.decorators.language import languageCB
-from Akshat.utils.decorators.play import PlayWrapper
-from Akshat.utils.formatters import formats
-from Akshat.utils.inline import (
+from KaiMusic.utils import seconds_to_min, time_to_seconds
+from KaiMusic.utils.channelplay import get_channeplayCB
+from KaiMusic.utils.decorators.language import languageCB
+from KaiMusic.utils.decorators.play import PlayWrapper
+from KaiMusic.utils.formatters import formats
+from KaiMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from Akshat.utils.database import (
+from KaiMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -30,8 +30,8 @@ from Akshat.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Akshat.utils.logger import play_logs
-from Akshat.utils.stream.stream import stream
+from KaiMusic.utils.logger import play_logs
+from KaiMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 

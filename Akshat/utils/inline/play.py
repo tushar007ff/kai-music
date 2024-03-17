@@ -2,9 +2,9 @@ import math
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
 
-from Akshat.utils.formatters import time_to_seconds
+from KaiMusic.utils.formatters import time_to_seconds
 
-from Akshat import app
+from KaiMusic import app
 
 def track_markup(_, user_id, channel, fplay):
     buttons = [

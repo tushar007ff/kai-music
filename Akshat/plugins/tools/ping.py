@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.core.call import Kai
-from Akshat.utils import bot_sys_stats
-from Akshat.utils.decorators.language import language
-from Akshat.utils.inline import supp_markup
+from KaiMusic import app
+from KaiMusic.core.call import Kai
+from KaiMusic.utils import bot_sys_stats
+from KaiMusic.utils.decorators.language import language
+from KaiMusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_VID_URL
 
 

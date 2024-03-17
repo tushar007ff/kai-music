@@ -1,4 +1,4 @@
-from Akshat import app
+from KaiMusic import app
 from pyrogram import Client, filters
 
 from pyrogram.enums import ParseMode

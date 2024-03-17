@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pymongo import MongoClient
 from config import MONGO_DB_URI
-from Akshat import app
-from Akshat.misc import SUDOERS
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS
 
 client = MongoClient(MONGO_DB_URI)
 db = client.send

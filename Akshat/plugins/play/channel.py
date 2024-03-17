@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.utils.database import set_cmode
-from Akshat.utils.decorators.admins import AdminActual
+from KaiMusic import app
+from KaiMusic.utils.database import set_cmode
+from KaiMusic.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 

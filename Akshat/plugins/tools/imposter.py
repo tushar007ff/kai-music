@@ -1,8 +1,8 @@
 import random 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from Akshat.plugins.tools.pretenderdb import impo_off, impo_on, check_pretender, add_userdata, get_userdata, usr_data
-from Akshat import app
+from KaiMusic.plugins.tools.pretenderdb import impo_off, impo_on, check_pretender, add_userdata, get_userdata, usr_data
+from KaiMusic import app
 
 NANDNI = [
     "https://telegra.ph/file/f3b2776b2766e911383f0.jpg",

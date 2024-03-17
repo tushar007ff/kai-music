@@ -1,10 +1,10 @@
 import re
-from Akshat import app
+from KaiMusic import app
 from config import BOT_USERNAME
-from Akshat.utils.Kai_ban import admin_filter
-from Akshat.mongo.filtersdb import *
-from Akshat.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from Akshat.utils.yumidb import user_admin
+from KaiMusic.utils.Kai_ban import admin_filter
+from KaiMusic.mongo.filtersdb import *
+from KaiMusic.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from KaiMusic.utils.yumidb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup

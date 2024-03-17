@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.misc import SUDOERS
-from Akshat.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from Akshat.utils.decorators.language import language
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from KaiMusic.utils.decorators.language import language
 from config import BANNED_USERS
 
 

@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from Akshat import YouTube, app
-from Akshat.core.call import Kai
-from Akshat.misc import db
-from Akshat.utils.database import get_loop
-from Akshat.utils.decorators import AdminRightsCheck
-from Akshat.utils.inline import close_markup, stream_markup
-from Akshat.utils.stream.autoclear import auto_clean
-from Akshat.utils.thumbnails import get_thumb
+from KaiMusic import YouTube, app
+from KaiMusic.core.call import Kai
+from KaiMusic.misc import db
+from KaiMusic.utils.database import get_loop
+from KaiMusic.utils.decorators import AdminRightsCheck
+from KaiMusic.utils.inline import close_markup, stream_markup
+from KaiMusic.utils.stream.autoclear import auto_clean
+from KaiMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

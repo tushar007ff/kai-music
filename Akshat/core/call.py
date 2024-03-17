@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from Akshat import LOGGER, YouTube, app
-from Akshat.misc import db
-from Akshat.utils.database import (
+from KaiMusic import LOGGER, YouTube, app
+from KaiMusic.misc import db
+from KaiMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from Akshat.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from Akshat.utils.exceptions import AssistantErr
-from Akshat.utils.formatters import check_duration, seconds_to_min, speed_converter
-from Akshat.utils.inline.play import stream_markup
-from Akshat.utils.stream.autoclear import auto_clean
-from Akshat.utils.thumbnails import get_thumb
+from KaiMusic.utils.exceptions import AssistantErr
+from KaiMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from KaiMusic.utils.inline.play import stream_markup
+from KaiMusic.utils.stream.autoclear import auto_clean
+from KaiMusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}

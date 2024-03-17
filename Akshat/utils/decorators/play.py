@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Akshat import YouTube, app
-from Akshat.misc import SUDOERS
-from Akshat.utils.database import (
+from KaiMusic import YouTube, app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from Akshat.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from Akshat.utils.inline import botplaylist_markup
+from KaiMusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 

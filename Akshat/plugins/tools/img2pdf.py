@@ -7,10 +7,10 @@ from PIL import Image
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.utils.errors import capture_err
+from KaiMusic import app
+from KaiMusic.utils.errors import capture_err
 
-from Akshat.core.sections import section
+from KaiMusic.core.sections import section
 
 
 async def convert(

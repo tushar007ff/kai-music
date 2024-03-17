@@ -1,8 +1,8 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Akshat.utils.Kai_font import Fonts
-from Akshat import app
+from KaiMusic.utils.Kai_font import Fonts
+from KaiMusic import app
 
 @app.on_message(filters.command(["font", "fonts"]))
 async def style_buttons(c, m, cb=False):

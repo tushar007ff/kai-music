@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.misc import db
-from Akshat.utils.decorators import AdminRightsCheck
-from Akshat.utils.inline import close_markup
+from KaiMusic import app
+from KaiMusic.misc import db
+from KaiMusic.utils.decorators import AdminRightsCheck
+from KaiMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

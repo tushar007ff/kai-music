@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from Akshat import app
-from Akshat.utils.database import is_on_off
+from KaiMusic import app
+from KaiMusic.utils.database import is_on_off
 from config import LOGGER_ID
 
 

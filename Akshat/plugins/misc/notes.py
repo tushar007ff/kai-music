@@ -1,10 +1,10 @@
-from Akshat import app
+from KaiMusic import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from Akshat.utils.Kai_ban import admin_filter
-from Akshat.mongo.notesdb import *
-from Akshat.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from Akshat.utils.yumidb import user_admin
+from KaiMusic.utils.Kai_ban import admin_filter
+from KaiMusic.mongo.notesdb import *
+from KaiMusic.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
+from KaiMusic.utils.yumidb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
@@ -82,7 +82,7 @@ async def PrivateNote(client, message):
     else:
         if await is_pnote_on(chat_id):
             await message.reply(
-                "Your notes are currently being sent in private. Akshat will send a small note with a button which redirects to a private chat.",
+                "Your notes are currently being sent in private. KaiMusic will send a small note with a button which redirects to a private chat.",
                 quote=True
             )
         else:

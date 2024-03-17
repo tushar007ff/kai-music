@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from Akshat import app
-from Akshat.utils.database import get_lang, set_lang
-from Akshat.utils.decorators import ActualAdminCB, language, languageCB
+from KaiMusic import app
+from KaiMusic.utils.database import get_lang, set_lang
+from KaiMusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 

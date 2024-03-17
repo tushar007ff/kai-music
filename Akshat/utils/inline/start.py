@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from Akshat import app
+from KaiMusic import app
 
 
 def start_panel(_):

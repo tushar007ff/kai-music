@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid
 from pyrogram.types import Message, User
 
-from Akshat import app
+from KaiMusic import app
 
 
 def ReplyCheck(message: Message):

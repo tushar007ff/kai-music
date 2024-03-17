@@ -5,13 +5,13 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.raw.functions.messages import DeleteHistory
 
-from Akshat import userbot as us, app
-from Akshat.core.userbot import assistants
+from KaiMusic import userbot as us, app
+from KaiMusic.core.userbot import assistants
 from config import*
 import config 
-from Akshat.misc import SUDOERS
-from Akshat.core.userbot import *
-from Akshat import app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.core.userbot import *
+from KaiMusic import app
 
 
 BOT_LIST = ["AnviXTRobot", "GitWizardBot", "urXdestinyBot"]

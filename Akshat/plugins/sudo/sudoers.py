@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from Akshat import app
+from KaiMusic import app
 from pyrogram.types import InputMediaVideo
-from Akshat.misc import SUDOERS
-from Akshat.utils.database import add_sudo, remove_sudo
-from Akshat.utils.decorators.language import language
-from Akshat.utils.extraction import extract_user
-from Akshat.utils.inline import close_markup
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.database import add_sudo, remove_sudo
+from KaiMusic.utils.decorators.language import language
+from KaiMusic.utils.extraction import extract_user
+from KaiMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 

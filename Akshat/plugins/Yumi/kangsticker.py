@@ -14,17 +14,17 @@ from pyrogram.errors import (
     UserIsBlocked,
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from Akshat import app
+from KaiMusic import app
 from config import BOT_USERNAME
-from Akshat.utils.errors import capture_err
+from KaiMusic.utils.errors import capture_err
 
-from Akshat.utils.files import (
+from KaiMusic.utils.files import (
     get_document_from_file_id,
     resize_file_to_sticker_size,
     upload_document,
 )
 
-from Akshat.utils.stickerset import (
+from KaiMusic.utils.stickerset import (
     add_sticker_to_set,
     create_sticker,
     create_sticker_set,

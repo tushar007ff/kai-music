@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import app
-from Akshat.misc import SUDOERS
-from Akshat.utils.database import add_gban_user, remove_gban_user
-from Akshat.utils.decorators.language import language
-from Akshat.utils.extraction import extract_user
+from KaiMusic import app
+from KaiMusic.misc import SUDOERS
+from KaiMusic.utils.database import add_gban_user, remove_gban_user
+from KaiMusic.utils.decorators.language import language
+from KaiMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

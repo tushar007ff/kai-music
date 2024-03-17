@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
-from Akshat import app
+from KaiMusic import app
 from pyrogram import filters, Client, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
@@ -73,8 +73,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "Akshat/assets/userinfo.png"
-font_path = "Akshat/assets/hiroko.ttf"
+bg_path = "KaiMusic/assets/userinfo.png"
+font_path = "KaiMusic/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 

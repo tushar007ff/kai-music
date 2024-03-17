@@ -1,4 +1,4 @@
-from Akshat import app
+from KaiMusic import app
 from os import environ
 from config import BOT_USERNAME
 import config
@@ -52,8 +52,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "Akshat/assets/userinfo.png"
-font_path = "Akshat/assets/hiroko.ttf"
+bg_path = "KaiMusic/assets/userinfo.png"
+font_path = "KaiMusic/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 

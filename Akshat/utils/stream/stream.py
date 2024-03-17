@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from Akshat import Carbon, YouTube, app
-from Akshat.core.call import Kai
-from Akshat.misc import db
-from Akshat.utils.database import add_active_video_chat, is_active_chat
-from Akshat.utils.exceptions import AssistantErr
-from Akshat.utils.inline import aq_markup, close_markup, stream_markup
-from Akshat.utils.pastebin import KaiBin
-from Akshat.utils.stream.queue import put_queue, put_queue_index
-from Akshat.utils.thumbnails import get_thumb
+from KaiMusic import Carbon, YouTube, app
+from KaiMusic.core.call import Kai
+from KaiMusic.misc import db
+from KaiMusic.utils.database import add_active_video_chat, is_active_chat
+from KaiMusic.utils.exceptions import AssistantErr
+from KaiMusic.utils.inline import aq_markup, close_markup, stream_markup
+from KaiMusic.utils.pastebin import KaiBin
+from KaiMusic.utils.stream.queue import put_queue, put_queue_index
+from KaiMusic.utils.thumbnails import get_thumb
 
 
 async def stream(

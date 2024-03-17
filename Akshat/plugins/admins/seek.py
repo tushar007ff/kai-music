@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Akshat import YouTube, app
-from Akshat.core.call import Kai
-from Akshat.misc import db
-from Akshat.utils import AdminRightsCheck, seconds_to_min
-from Akshat.utils.inline import close_markup
+from KaiMusic import YouTube, app
+from KaiMusic.core.call import Kai
+from KaiMusic.misc import db
+from KaiMusic.utils import AdminRightsCheck, seconds_to_min
+from KaiMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
