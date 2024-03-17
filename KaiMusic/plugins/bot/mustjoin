@@ -6,7 +6,7 @@ from KaiMusic import app
 
 #--------------------------
 
-MUST_JOIN = "TeamX_TSupport"
+MUST_JOIN = "mei_support"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):

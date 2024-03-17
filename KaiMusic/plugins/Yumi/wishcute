@@ -4,7 +4,7 @@ import random
 import requests
 from KaiMusic import app 
 
-SUPPORT_CHAT = "TeamX_TSupport"
+SUPPORT_CHAT = "mei_support"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):

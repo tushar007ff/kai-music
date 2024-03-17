@@ -12,7 +12,7 @@ async def copy_messages(_, message):
         buttons = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("𝐓𝐄𝐀𝐌冬𝗫𝗧",  url=f"https://t.me/teamxt_support"),
-                 InlineKeyboardButton("𝐓𝐄𝐀𝐌冬𝗫𝗧 𝐒𝐔𝐏𝐏𝐎𝐑𝐓",url=f"https://t.me/TeamX_TSupport")],
+                 InlineKeyboardButton("𝐓𝐄𝐀𝐌冬𝗫𝗧 𝐒𝐔𝐏𝐏𝐎𝐑𝐓",url=f"https://t.me/mei_support")],
                 [InlineKeyboardButton("𝐀𝐍𝐕𝐈冬𝗫𝗧", url=f"https://t.me/AnviXTRobot"),
                  InlineKeyboardButton("Co-𝐎𝐖𝐍𝐄𝐑", url=f"https://t.me/Subhi_love")]
             ]
