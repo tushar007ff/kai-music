@@ -127,23 +127,23 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
+    "START_IMG_URL", "https://graph.org/file/cc3cd65371aff04d41fb2.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
+    "PING_IMG_URL", "https://graph.org/file/eedc32809bfe1fadb09e8.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/84de90284661ec50f06e5.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/125e24c0a95894d9421f7.jpg"
+STATS_IMG_URL = "https://graph.org/file/5d074b328bf83b6b8645f.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/2f4e84d58f696a64f8031.jpg
+TELEGRAM_VIDEO_URL = "https://graph.org/file/e317a46fa6037d994bba3.jpg"
+STREAM_IMG_URL = "https://graph.org/file/5ae0c526fedd2ac1d46ba.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/d174a404bd89ee3e0404b.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/254ea73cd6957392c2e3a.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/d174a404bd89ee3e0404b.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/e317a46fa6037d994bba3.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/2f4e84d58f696a64f8031.jpg"
 PING_VID_URL = getenv(
-    "PING_VID_URL", "https://telegra.ph/file/925d833773c3f75500255.mp4"
+    "PING_VID_URL", "https://graph.org/file/125e24c0a95894d9421f7.jpg"
 )
 
 def time_to_seconds(time):
