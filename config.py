@@ -134,7 +134,7 @@ PING_IMG_URL = getenv(
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/125e24c0a95894d9421f7.jpg"
 STATS_IMG_URL = "https://graph.org/file/5d074b328bf83b6b8645f.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/2f4e84d58f696a64f8031.jpg
+TELEGRAM_AUDIO_URL = "https://graph.org/file/2f4e84d58f696a64f8031.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/e317a46fa6037d994bba3.jpg"
 STREAM_IMG_URL = "https://graph.org/file/5ae0c526fedd2ac1d46ba.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/d174a404bd89ee3e0404b.jpg"
