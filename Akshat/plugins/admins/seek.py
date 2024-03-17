@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from Akshat import YouTube, app
-from Akshat.core.call import Rax
+from Akshat.core.call import Kai
 from Akshat.misc import db
 from Akshat.utils import AdminRightsCheck, seconds_to_min
 from Akshat.utils.inline import close_markup
@@ -56,7 +56,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
     if "index_" in file_path:
         file_path = playing[0]["vidid"]
     try:
-        await Rax.seek_stream(
+        await Kai.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),

@@ -1,4 +1,4 @@
-from Akshat.utils.Rax_ban import admin_filter
+from Akshat.utils.Kai_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters

@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from Akshat import app
-from Akshat.core.call import Rax, autoend
+from Akshat.core.call import Kai, autoend
 from Akshat.utils.database import get_client, is_active_chat, is_autoend
 
 
@@ -64,7 +64,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Rax.stop_stream(chat_id)
+                    await Kai.stop_stream(chat_id)
                 except:
                     continue
                 try:

@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from Akshat import app
-from Akshat.core.call import Rax
+from Akshat.core.call import Kai
 from Akshat.misc import SUDOERS, db
 from Akshat.utils import AdminRightsCheck
 from Akshat.utils.database import is_active_chat, is_nonadmin_chat
@@ -85,7 +85,7 @@ async def del_back_playlist(client, callback_query, _):
         text=_["admin_32"].format(callback_query.from_user.mention),
     )
     try:
-        await Rax.speedup_stream(
+        await Kai.speedup_stream(
             chat_id,
             file_path,
             speed,

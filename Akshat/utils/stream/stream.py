@@ -6,12 +6,12 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from Akshat import Carbon, YouTube, app
-from Akshat.core.call import Rax
+from Akshat.core.call import Kai
 from Akshat.misc import db
 from Akshat.utils.database import add_active_video_chat, is_active_chat
 from Akshat.utils.exceptions import AssistantErr
 from Akshat.utils.inline import aq_markup, close_markup, stream_markup
-from Akshat.utils.pastebin import RaxBin
+from Akshat.utils.pastebin import KaiBin
 from Akshat.utils.stream.queue import put_queue, put_queue_index
 from Akshat.utils.thumbnails import get_thumb
 
@@ -32,7 +32,7 @@ async def stream(
     if not result:
         return
     if forceplay:
-        await Rax.force_stop_stream(chat_id)
+        await Kai.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
         count = 0
@@ -79,7 +79,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_14"])
-                await Rax.join_call(
+                await Kai.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
@@ -116,7 +116,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await RaxBin(msg)
+            link = await KaiBin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -165,7 +165,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Rax.join_call(
+            await Kai.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -225,7 +225,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Rax.join_call(chat_id, original_chat_id, file_path, video=None)
+            await Kai.join_call(chat_id, original_chat_id, file_path, video=None)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -277,7 +277,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Rax.join_call(chat_id, original_chat_id, file_path, video=status)
+            await Kai.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -333,7 +333,7 @@ async def stream(
             n, file_path = await YouTube.video(link)
             if n == 0:
                 raise AssistantErr(_["str_3"])
-            await Rax.join_call(
+            await Kai.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -391,7 +391,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Rax.join_call(
+            await Kai.join_call(
                 chat_id,
                 original_chat_id,
                 link,

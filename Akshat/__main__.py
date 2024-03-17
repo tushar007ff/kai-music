@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from Akshat import LOGGER, app, userbot
-from Akshat.core.call import Rax
+from Akshat.core.call import Kai
 from Akshat.misc import sudo
 from Akshat.plugins import ALL_MODULES
 from Akshat.utils.database import get_banned_users, get_gbanned
@@ -38,9 +38,9 @@ async def init():
         importlib.import_module("Akshat.plugins" + all_module)
     LOGGER("Akshat.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await Rax.start()
+    await Kai.start()
     try:
-        await Rax.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Kai.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("Akshat").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗗𝗔𝗫𝗫 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
@@ -48,7 +48,7 @@ async def init():
         exit()
     except:
         pass
-    await Rax.decorators()
+    await Kai.decorators()
     LOGGER("Akshat").info(
         "╔═════ஜ۩۞۩ஜ════╗\n                                               ☠︎︎TEAM_X_T☠︎︎\n                                                                     ╚═════ஜ۩۞۩ஜ════╝"
     )

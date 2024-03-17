@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from Akshat import app
-from Akshat.core.call import Rax
+from Akshat.core.call import Kai
 from Akshat.utils import bot_sys_stats
 from Akshat.utils.decorators.language import language
 from Akshat.utils.inline import supp_markup
@@ -19,7 +19,7 @@ async def ping_com(client, message: Message, _):
         video=PING_VID_URL,
         caption=_["ping_1"].format(app.mention),
     )
-    pytgping = await Rax.ping()
+    pytgping = await Kai.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(

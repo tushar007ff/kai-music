@@ -1,7 +1,7 @@
 from Akshat import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from Akshat.utils.Rax_ban import admin_filter
+from Akshat.utils.Kai_ban import admin_filter
 from Akshat.mongo.notesdb import *
 from Akshat.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
 from Akshat.utils.yumidb import user_admin

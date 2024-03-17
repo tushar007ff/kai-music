@@ -4,7 +4,7 @@ from pyrogram import filters, Client
 from Akshat import app
 from config import OWNER_ID
 from pyrogram.types import Message
-from Akshat.utils.Rax_ban import admin_filter
+from Akshat.utils.Kai_ban import admin_filter
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 

@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
-from Akshat.utils.Rax_ban import admin_filter
+from Akshat.utils.Kai_ban import admin_filter
 from Akshat import app
 
 

@@ -1,7 +1,7 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Akshat.utils.Rax_font import Fonts
+from Akshat.utils.Kai_font import Fonts
 from Akshat import app
 
 @app.on_message(filters.command(["font", "fonts"]))

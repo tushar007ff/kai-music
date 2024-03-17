@@ -1,4 +1,4 @@
-from Akshat.core.bot import Rax
+from Akshat.core.bot import Kai
 from Akshat.core.dir import dirr
 from Akshat.core.git import git
 from Akshat.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = Rax()
+app = Kai()
 api = SafoneAPI()
 userbot = Userbot()
 

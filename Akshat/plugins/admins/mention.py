@@ -2,7 +2,7 @@ import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
 from Akshat import app
 from pyrogram import filters
-from Akshat.utils.Rax_ban import admin_filter
+from Akshat.utils.Kai_ban import admin_filter
 
 
 

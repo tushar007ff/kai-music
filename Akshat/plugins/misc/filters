@@ -1,7 +1,7 @@
 import re
 from Akshat import app
 from config import BOT_USERNAME
-from Akshat.utils.Rax_ban import admin_filter
+from Akshat.utils.Kai_ban import admin_filter
 from Akshat.mongo.filtersdb import *
 from Akshat.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from Akshat.utils.yumidb import user_admin
