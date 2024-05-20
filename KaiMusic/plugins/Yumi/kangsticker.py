@@ -83,7 +83,7 @@ async def kang(client, message: Message):
     ):
         sticker_emoji = message.reply_to_message.sticker.emoji
     else:
-        sticker_emoji = "🤔"
+        sticker_emoji = "😌"
 
     # Get the corresponding fileid, resize the file if necessary
     doc = message.reply_to_message.photo or message.reply_to_message.document
